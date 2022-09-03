@@ -52,7 +52,7 @@ class backtesting_MACD_crossover:
 end1 = dt.date.today()
 start1 = end1 - pd.Timedelta(days=3*252)
 
-nifty_10_20_sma = backtesting_MACD_crossover('^NSEI', start1, end1)
+nifty_MACD_signal = backtesting_MACD_crossover('^NSEI', start1, end1)
 
 
 
